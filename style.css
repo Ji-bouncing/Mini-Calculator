@@ -1,0 +1,46 @@
+*{
+  clear: both;
+}
+html{
+  font-size:62.5%;
+}
+
+body{
+  width:60%;
+  height:35vh;
+  margin:50% auto;
+  border:1px solid white;
+  border-radius:3px;
+  background:black;
+  color:white;
+}
+span{
+  display: block;
+  padding:10% 0 5% 0;
+  border-bottom:1px solid white;
+  border-top:1px solid white;
+}
+span h3{
+  float:right;
+  font-size:2rem;
+  margin-top:-6%;
+  margin-right:3%;
+}
+ul{
+  list-style:none;
+  display:flex;
+  
+}
+ul li{
+  flex:1;
+  margin:0 auto;
+  border:1px solid white;
+  text-align:center;
+  margin-left:-10%;
+  margin-right:5%;
+  padding:5%;
+  font-size:2rem;
+}
+ul li:hover{
+  background:red;
+}
